@@ -2,3 +2,22 @@ body {
   background-color: #eee;
   font-family: 'Lato', sans-serif;
 }
+
+.container {
+  display: flex;
+  flex-direction: row-direction;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.bioElement {
+  margin: 10px;
+  border: 0;
+  padding: 10px;
+  background-color: #009000;
+  width: 300px;
+}
+
+img {
+  width: 100%;
+}
