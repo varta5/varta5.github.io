@@ -1,9 +1,46 @@
 body {
-  background-color: #eee;
+  margin: 0;
+  border: 0;
+  padding: 10px;
+  background-color: #ddd;
   font-family: 'Lato', sans-serif;
+  font-size: 16px;
+}
+
+.headSection {
+  margin: 0;
+  border: 0;
+  padding: 10px;
+  background-color: #009000;
+}
+
+h1, h2, h3 {
+  border: 0;
+  padding: 0;
+  text-align: center;
+  color: #003800;
+}
+
+h1 {
+  margin: 15px 0;
+  font-size: 48px;
+}
+
+h2 {
+  margin: 10px 0;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+h3 {
+  margin: 5px 0;
+  font-size: 16px;
 }
 
 .container {
+  margin: 15px 0 0 0;
+  border: 0;
+  padding: 0;
   display: flex;
   flex-direction: row-direction;
   flex-wrap: wrap;
@@ -16,8 +53,71 @@ body {
   padding: 10px;
   background-color: #009000;
   width: 300px;
+  color: #eee;
+  box-shadow: 5px 5px 8px #999;
+}
+
+#profilePictureBox {
+  align-self: center;
+}
+
+h4 {
+  margin: 5px 0 10px 0;
+  border: 0;
+  padding: 0;
+  font-size: 20px;
+  text-decoration: underline dashed 2px #eee;
+  text-underline-offset: 3px;
+}
+
+p {
+  margin: 8px 0;
+  border: 0;
+  padding: 0;
+  text-align: justify;
 }
 
 img {
   width: 100%;
+}
+
+.year {
+  font-size: 18px;
+  font-style: italic;
+}
+
+.companyName {
+  font-weight: bold;
+}
+
+.positionName {
+  text-transform: uppercase;
+}
+
+ul {
+  margin: 0 0 15px 0;
+}
+
+hr {
+  margin: 0;
+  border-top: 2px dashed #eee;
+  padding: 0;
+  width: 100%;
+  height: 0;
+}
+
+a:link {
+  color: #00d0ff;
+}
+
+a:visited {
+  color: #00c0df;
+}
+
+a:active {
+  color: #f00;
+}
+
+a:hover {
+  color: #eee;
 }
