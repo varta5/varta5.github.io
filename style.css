@@ -78,8 +78,31 @@ p {
   text-align: justify;
 }
 
-img {
+#profilePicture {
   width: 100%;
+}
+
+.organizationLogo {
+  float: right;
+}
+
+#greenfoxLogoContainer {
+  width: 45px;
+  overflow: hidden;
+}
+
+#greenfoxLogoContainer img {
+  height: 40px;
+}
+
+#bmeLogo1, #bmeLogo2 {
+  margin-top: 10px;
+  height: 32px;
+}
+
+#geLogo1, #geLogo2 {
+  margin-top: 10px;
+  height: 40px;
 }
 
 .year {
